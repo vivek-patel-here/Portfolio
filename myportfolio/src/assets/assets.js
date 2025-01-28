@@ -1,6 +1,6 @@
-import project1 from "./project.png";
-import project2 from "./project2.png";
-import project3 from "./project3.png";
+import project1 from "./project.PNG";
+import project2 from "./project2.PNG";
+import project3 from "./project3.PNG";
 
 import React_logo from "./React-icon.png";
 import tailwind_logo from "./tailwindlogo.png";
