@@ -1,0 +1,14 @@
+.app{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    background-image: url("./assets/man-4444765_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow-x: hidden;
+}
+
+.app::-webkit-scrollbar{
+    display: none;
+}

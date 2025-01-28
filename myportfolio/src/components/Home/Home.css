@@ -1,0 +1,59 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.home-container {
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-container h1 {
+  font-size: 9rem;
+  line-height: 9rem;
+  animation: load 0.5s ease-in 0.2s ;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.home .home-title {
+  font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+    .home{
+        padding:0px;
+        display: grid;
+        place-items: center;
+        align-items: center;
+    }
+   
+    .home-container h1 {
+        font-size: 6rem;
+        line-height:6rem;
+      }
+
+      .home-container p {
+        font-size: 1rem;
+        color: grey;
+      }
+      
+      .home .home-title {
+        font-size: 1rem;
+      }
+}
+
+@media (max-width: 600px) {
+    .home h1{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
