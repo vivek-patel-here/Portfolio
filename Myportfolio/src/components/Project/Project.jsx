@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Project.css"
-import Projectcard from '../ProjectCard/Projectcard'
+import Projectcard from "../Projectcard/Projectcard.jsx"
 import assets from "../../assets/assets.js"
 
 function Project() {
