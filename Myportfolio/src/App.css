@@ -1,0 +1,17 @@
+.app{
+    width: 80vw;
+    height: 100vh;
+    overflow: auto;
+    margin: auto;
+    color: white;
+    background-color: #ffffff10;
+    backdrop-filter: blur(5px);
+}
+.app::-webkit-scrollbar{
+    display: none;
+}
+@media (max-width:600px) {
+    .app{
+        width: 90vw;
+    }
+}

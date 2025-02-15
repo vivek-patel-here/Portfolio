@@ -1,0 +1,48 @@
+.about {
+  height: 120vh;
+ 
+  width: 100%;
+  background: transparent;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.068);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  scroll-behavior: smooth;
+}
+
+.about-card-container::-webkit-scrollbar{
+  display: none;
+}
+
+.about-card-container {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+}
+
+.about-card {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.144);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  line-height: 1.5rem;
+}
+
+.about-card h1{
+    line-height: 3.8rem;
+    font-size: 3.5rem;
+}

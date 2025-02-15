@@ -1,0 +1,34 @@
+.project-card{
+    width: 280px;
+    height: 400px;
+    margin: auto;
+    height: 430px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.137);  
+    border-radius: 10px;
+    padding:5px 10px;
+}
+
+.project-card img{
+    width: 100%;
+    height: 180px;
+}
+
+.proj-card-title{
+    font-size: 2rem;
+    margin: 10px auto;
+}
+.proj-card-desc{
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.project-card a{
+    color: seagreen;
+    text-decoration: none;
+}
+
+.project-card a:hover{
+    border-bottom: 2px solid seagreen;
+}
+

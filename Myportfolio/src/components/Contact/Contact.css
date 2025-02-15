@@ -1,0 +1,20 @@
+.contact{
+    height: 200px;
+    width:100%;
+}
+
+.contact-container{
+    height:100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 20px;
+}
+@media (max-width:600px) {
+    .contact .contact-container h1{
+        font-size: 1.3rem;
+    }
+}

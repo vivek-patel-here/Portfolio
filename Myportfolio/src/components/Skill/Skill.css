@@ -1,0 +1,70 @@
+.skill {
+  text-align: center;
+  padding-top: 10px;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.055);
+}
+
+.skill > h1 {
+  font-size: 3rem;
+}
+
+.skill .skillContainer {
+  height: 90%;
+  padding-top: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  gap: 20px;
+}
+
+.skillContainer::-webkit-scrollbar{
+    display: none;
+}
+.skill .skillContainer .skill-container {
+  width: max(300px, 40vw);
+  height: 75px;
+  border: 1px solid rgba(255, 255, 255, 0.349);
+  display: grid;
+  place-items: center;
+  padding: 8px;
+}
+.skillContainer .left {
+  border-radius: 0px 40px 40px 0px;
+}
+.skill .skill-container h2 {
+  font-size: 1.3rem;
+}
+.skillContainer .right {
+  border-radius: 40px 0px 0px 40px;
+}
+.skill .skill-icon-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.skill .skillContainer .skill-container .skill-icon {
+  height: 30px;
+}
+
+@media (max-width: 600px) {
+  .skill > h1 {
+    font-size: 2rem;
+  }
+
+  .skill .skill-container h2 {
+    font-size: 0.9rem;
+  }
+}
