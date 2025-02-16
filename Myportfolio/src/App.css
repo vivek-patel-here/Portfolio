@@ -5,7 +5,7 @@
     margin: auto;
     color: white;
     background-color: #ffffff0c;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
 }
 .app::-webkit-scrollbar{
     display: none;
