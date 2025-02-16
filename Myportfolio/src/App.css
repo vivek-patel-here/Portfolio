@@ -4,8 +4,8 @@
     overflow-x: hidden;
     margin: auto;
     color: white;
-    background-color: #ffffff10;
-    backdrop-filter: blur(5px);
+    background-color: #ffffff0c;
+    backdrop-filter: blur(15px);
 }
 .app::-webkit-scrollbar{
     display: none;

@@ -21,6 +21,8 @@ import cpp_logo from "./cpp_logo.png";
 import c_logo from "./c_logo.png";
 import javascript_logo from "./javascript_logo.png";
 
+import bgv from "./bgv.mp4";
+
 let projects = [
   {
     image: project1,
@@ -63,6 +65,7 @@ const assets = {
   database,
   othertechnology,
   programminglanguage,
+  bgv
 };
 
 export default assets;
