@@ -33,10 +33,10 @@ let projects = [
   },
   {
     image: project2,
-    title: "ENotebook",
+    title: "SmartBook",
     description:
-      "E-Notebook is a MERN stack-based app offering secure cloud storage for users to create, store, and manage notes effortlessly.",
-    link: "https://e-notebook-client.onrender.com",
+      "SmartBook is a MERN stack-based app offering seemless appointment booking services. For both small businesses as well as customers.",
+    link: "https://smart-appointment-booking-system-client-ke7j.onrender.com",
 
   },
   {
